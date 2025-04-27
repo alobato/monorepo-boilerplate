@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src --ext ts,js --exec \"node --loader ts-node/esm src/index.ts\"",
+    "dev:js": "nodemon src/server.js",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "start:js": "node src/server.js",
+  "lint": "eslint src --ext .ts,.js",
+  "lint:fix": "eslint src --ext .ts,.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1"
+  }
+}
