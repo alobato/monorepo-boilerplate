@@ -81,7 +81,3 @@ pnpm install
 - O ESLint está configurado tanto no backend quanto no frontend, com regras modernas para TypeScript, React e Tailwind.
 - O Turborepo permite rodar e buildar os apps de forma paralela e eficiente.
 - O uso de pnpm garante instalações rápidas e workspace compartilhado.
-
----
-
-Se precisar de mais detalhes sobre a configuração ou quiser adicionar instruções específicas para deploy, testes ou outros scripts, posso complementar este README para você!
